@@ -22,6 +22,6 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          port: ${{ secrets.PORT }}
+          port: 22
           key: ${{ secrets.SSHKEY }}
           script: "cd /var/www/laravel-github && ./.scripts/deploy.sh"
