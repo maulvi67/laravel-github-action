@@ -21,7 +21,4 @@ npm install
 # Compile npm assets
 npm run prod
 
-# Run database migrations
-php artisan migrate --force
-
 echo "Deployment finished!"
