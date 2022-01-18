@@ -24,4 +24,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: 22
           key: ${{ secrets.SSHKEY }}
-          script: "cd /var/www/laravel-github && ./.scripts/deploy.sh"
+          script: "cd /var/www/laravel-github && sh deploy.sh"
